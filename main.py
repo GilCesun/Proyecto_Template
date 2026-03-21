@@ -1,8 +1,21 @@
-# main.py
-def iniciar_sistema() -> None:
-    print("¡Bienvenido al sistema!")
+from Models import *
+from utileria import *
 
 
-# Comentario de prueba
+def main():
+    reload = EditarMenu()  # Recargar el menu si hay cambios4
+
+    prueba = Menu()
+    prueba.mostraMenu()
+    Orden1 = Orden()
+    Orden1.pedido()
+    Cuenta1 = Cuenta()
+
+
+# Press the green button in the gutter to run the script.
 if __name__ == "__main__":
-    iniciar_sistema()
+
+    main()
+
+    ticket = Ticket()
+    # ticket.mostrar()
