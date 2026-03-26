@@ -19,4 +19,9 @@ if __name__ == "__main__":
 
     ticket = Ticket()
     
+
+
+
+
+    
     # ticket.mostrar()
