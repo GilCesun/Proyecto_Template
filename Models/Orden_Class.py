@@ -18,7 +18,6 @@ class Orden(Menu):
 
         while True:  # agregar un try catch por si se elige algo que no sea 1 o 2
             try:
-
                 print(
                     "Eliga lo que desee realizar \n 1.Ordenar\n 2.Mostrar el menu\n 3.Pedir la cuenta"
                 )
@@ -34,9 +33,7 @@ class Orden(Menu):
                     try:  # Este try Catch lo usamos para saber el indice en la lista de precios del producto que buscamos
                         posicion = self.lista_productos.index(orden)
                         self.orden_Diccionario["Consumo"][0].append(orden)
-                        self.orden_Diccionario["Consumo"][1].append(
-                            self.lista_precios[posicion]
-                        )
+                        self.orden_Diccionario["Consumo"][1].append(self.lista_precios[posicion])
 
                     except ValueError:
                         print("El producto no existe")
