@@ -5,7 +5,6 @@ import datetime
 
 
 class Ticket(Cuenta, Orden):
-
     def __init__(self) -> None:
         super().__init__()
         self.fecha_formateada = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
