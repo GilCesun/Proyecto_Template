@@ -2,7 +2,7 @@ import json
 
 # Separa del menu las bebidas y sus precios.
 
-
+fff
 class Bebidas:
     def __init__(self) -> None:
         super().__init__()

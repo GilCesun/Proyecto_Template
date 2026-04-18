@@ -1,4 +1,5 @@
 import json
+
 # Esta clase genera un archivo JSON con el menu del bar, esta estructurado mediante un diccionario y listas de listas
 # por ejemplo :Diccionario { "Key": [[Lista de alimentos],[Lista de precios]]}.
 

@@ -1,5 +1,5 @@
 from .Menu_Class import Menu
-from utileria import *
+from utileria import crearJson, limpiarConsola
 
 
 class Orden(Menu):
