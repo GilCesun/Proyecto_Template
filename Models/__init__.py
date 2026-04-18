@@ -5,3 +5,13 @@ from .EditorDelMenu_Class import EditarMenu
 from .Menu_Class import Menu
 from .Orden_Class import Orden
 from .Ticket_class import Ticket
+
+__all__ = [
+    "Alimento",
+    "Bebidas",
+    "Cuenta",
+    "EditarMenu",
+    "Menu",
+    "Orden",
+    "Ticket"
+]
